@@ -1,7 +1,6 @@
 {
   "name": "moduldokumentation",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -11,11 +10,21 @@
     "mongoose": "^5.10.10"
   },
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damblatt/moduldokumentation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damblatt/moduldokumentation/issues"
+  },
+  "homepage": "https://github.com/damblatt/moduldokumentation#readme",
+  "description": ""
 }

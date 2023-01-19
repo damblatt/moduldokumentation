@@ -513,15 +513,25 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #bcffb5;
+  padding: 10px;
 }
 
-.font-bold {
-  font-weight: 700;
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
 }
 
-.underline {
-  text-decoration-line: underline;
+.item1 {
+  grid-column: 2;
+}
+
+.item2 {
+  grid-column: 3;
 }
